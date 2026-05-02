@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173252372729",
+    "project_id": "nails-bussiness-clientlist",
+    "storage_bucket": "nails-bussiness-clientlist.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173252372729:android:b57fd5ca8745c8858bda28",
+        "android_client_info": {
+          "package_name": "com.example.nailclientapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlZNlnpWPfvHhnKlVw1907KSnuFasgOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
