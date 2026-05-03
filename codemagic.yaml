@@ -1,0 +1,19 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    environment:
+      flutter: stable
+      xcode: 15.4
+      cocoapods: default
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Build iOS
+        script: |
+          flutter build ios --debug --no-codesign
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - imabox2k@gmail.com
